@@ -1,0 +1,53 @@
+:root {
+  --backgnd: #6c757d;
+}
+body {
+  font: 1rem/1.5 var(--font-family-sans-serif);
+}
+a {
+  /* color: var(--blue); */
+  text-decoration: none;
+  color: #212529;  
+}
+h1, h2, h3 {
+  color: blue;
+}
+h3:hover {
+  color: pink;
+}
+.right-align{
+  text-align: right;
+}
+.center-align{
+  text-align: center;
+}
+
+.title-row{
+  height: 50px;
+  padding: 15px 0px;
+}
+.title-row span{
+  color: hotpink;
+}
+.title-row .title{
+  font-size: 1.4rem;
+  color: #6c757d;
+}
+.lang-switch{
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+
+.coming-soon {
+  height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.coming-soon-notes{
+  font-size: 0.8rem;
+}
+.coming-soon-notes a{
+  text-decoration: none;
+}
